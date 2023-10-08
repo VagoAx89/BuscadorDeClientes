@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                
+             x:Class="BuscarCliente.AddClient">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Margin="10,0" HasShadow="False" BackgroundColor="White" >
+
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Nombre" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Entry x:Name="NombreEntry" HorizontalOptions="EndAndExpand" WidthRequest="250"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Direccion" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Entry x:Name="DireccionEntry" HorizontalOptions="EndAndExpand" WidthRequest="250"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Telefono" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Entry x:Name="TelefonoEntry" HorizontalOptions="EndAndExpand" WidthRequest="250"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="TSP" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Entry x:Name="TspEntry" HorizontalOptions="EndAndExpand" WidthRequest="220"/>
+                      
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+                        <Button Text="volver" FontSize="10" HorizontalOptions="Center" Clicked="Button_Clicked" CornerRadius="15" />
+                        <Button Text="Agregar" FontSize="10" HorizontalOptions="Center" Clicked="Button_Clicked_1"  CornerRadius="15" />
+                    </StackLayout>
+
+
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

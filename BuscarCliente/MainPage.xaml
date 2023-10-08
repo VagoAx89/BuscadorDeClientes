@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            BackgroundColor="#EEEEEE"
+            xmlns:local="clr-namespace:BuscarCliente"
+            NavigationPage.HasBackButton="False"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             x:Class="BuscarCliente.MainPage">
+    
+    <ContentPage Title="Historial">
+        <!-- Aquí puedes agregar el contenido de la página de historial en XAML -->
+        <!-- Por ejemplo, etiquetas, controles, etc. -->
+       
+        <StackLayout>
+            <Frame Margin="0,10" HasShadow="True" CornerRadius="0" BackgroundColor="#ffffff" >
+
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Buscar" FontSize="20" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Entry HorizontalOptions="EndAndExpand" WidthRequest="280"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Nombre" Margin="-10,0" VerticalOptions="Center"/>
+                        <CheckBox  x:Name="checkName" Margin="00,0,10,0"/>
+
+                        <Label Margin="-10,0" Text="TSP" VerticalOptions="Center"/>
+                        <CheckBox Margin="00,0,10,0" x:Name="checkTsp"/>
+
+                        <Label Text="Direccion"  Margin="-10,0" VerticalOptions="Center"/>
+
+                        <CheckBox  x:Name="checkDirection" />
+                        <Button Text="Buscar" FontSize="13" Clicked="Button_Clicked_4" CornerRadius="15" />
+
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+            <ScrollView Margin="2,2,2,2" BackgroundColor="#EEEEEE">
+                
+                <StackLayout Spacing="2" Margin="0,10" x:Name="mainStack">
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage>
+
+        <local:ClientesForm Title="Clientes" />
+    
+    
+  
+
+</TabbedPage>

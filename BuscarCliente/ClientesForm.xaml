@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BuscarCliente.ClientesForm">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" HasShadow="False" CornerRadius="0">
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Clientes" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" TextColor="White" FontSize="36"/>
+                    <Button Text="Agregar" BackgroundColor="White" Clicked="Button_Clicked_4" FontSize="13" HorizontalOptions="EndAndExpand"  CornerRadius="15"/>
+                   
+                </StackLayout>
+            </Frame>
+            <Frame Margin="10,0" HasShadow="False" CornerRadius="15" BackgroundColor="White" >
+
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Buscar" FontSize="20" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Entry HorizontalOptions="EndAndExpand" WidthRequest="280"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Nombre" Margin="-10,0" VerticalOptions="Center"/>
+                        <CheckBox  x:Name="checkName" Margin="00,0,10,0"/>
+
+                        <Label Margin="-10,0" Text="TSP" VerticalOptions="Center"/>
+                        <CheckBox Margin="00,0,10,0" x:Name="checkTsp"/>
+
+                        <Label Text="Direccion"  Margin="-10,0" VerticalOptions="Center"/>
+
+                        <CheckBox  x:Name="checkDirection"/>
+                        <Button Text="Buscar" FontSize="13"  CornerRadius="15" />
+
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+            <!--<Frame Margin="10,0" HasShadow="False" BackgroundColor="White" >
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nombre" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                    <Entry x:Name="NombreEntry" HorizontalOptions="EndAndExpand" WidthRequest="250"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Direccion" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                    <Entry x:Name="DireccionEntry" HorizontalOptions="EndAndExpand" WidthRequest="250"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Telefono" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                    <Entry x:Name="TelefonoEntry" HorizontalOptions="EndAndExpand" WidthRequest="250"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="TSP" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                    <Entry x:Name="TspEntry" HorizontalOptions="EndAndExpand" WidthRequest="220"/>
+                    <Button Text="Agregar" FontSize="10" Clicked="Button_Clicked_1" CornerRadius="15" />
+                </StackLayout>
+
+
+            </StackLayout>
+        </Frame>-->
+
+
+            <ScrollView BackgroundColor="#EEEEEE">
+                <StackLayout Spacing="20" x:Name="mainStack">
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

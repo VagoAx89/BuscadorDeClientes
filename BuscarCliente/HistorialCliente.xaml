@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BuscarCliente.HistorialCliente">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="mainStack">
+                
+            </StackLayout>
+            <ScrollView BackgroundColor="#EEEEEE">
+                <StackLayout Margin="0,2,0,2" Spacing="20" x:Name="scrollStack">
+
+                </StackLayout>
+            </ScrollView>
+          
+           
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

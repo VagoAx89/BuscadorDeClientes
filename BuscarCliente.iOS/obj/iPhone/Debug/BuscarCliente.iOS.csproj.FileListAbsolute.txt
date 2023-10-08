@@ -1,0 +1,13 @@
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\optimized\
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\BuscarCliente.iOS.csproj.AssemblyReference.cache
+C:\Users\anima\source\repos\BuscarCliente\BuscarCliente.iOS\obj\iPhone\Debug\BuscarCliente.iOS.csproj.CoreCompileInputs.cache
